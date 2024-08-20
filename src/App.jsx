@@ -1,34 +1,46 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+/* eslint-disable react/no-unescaped-entities */
+// import { useState } from 'react'
+import arcadeGame from './assets/arcade-game.png'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <body className="bg-black text-white h-screen flex flex-col justify-between p-4 font-pixelify">
+    <h1 className="text-6xl font-bold text-center text-sky-400">
+      MILO'S MINI ARCADE
+    </h1>
+
+    <section className="grid grid-cols-3 gap-7 place-items-center">
+      <div className="border rounded-md border-yellow-300 p-4 h-52 w-52 flex flex-col justify-center items-center text-sky-400 text-xl">
+        <img src={arcadeGame} />
+        <h3>Pet-a-Milo</h3>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+      <div className="border rounded-md border-yellow-300 p-4 h-52 w-52 flex flex-col justify-center items-center text-sky-400 text-xl">
+        <img src={arcadeGame} />
+        <h3>Milo Run</h3>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+      <div className="border rounded-md border-yellow-300 p-4 h-52 w-52 flex flex-col justify-center items-center text-sky-400 text-xl">
+        <img src={arcadeGame} />
+        <h3>Super Milo</h3>
+      </div>
+      <div className="border rounded-md border-yellow-300 p-4 h-52 w-52 flex flex-col justify-center items-center text-sky-400 text-xl">
+        <img src={arcadeGame} />
+        <h3>Pac Milo</h3>
+      </div>
+      <div className="border rounded-md border-yellow-300 p-4 h-52 w-52 flex flex-col justify-center items-center text-sky-400 text-xl">
+        <img src={arcadeGame} />
+        <h3>Snake Milo</h3>
+      </div>
+      <div className="border rounded-md border-yellow-300 p-4 h-52 w-52 flex flex-col justify-center items-center text-sky-400 text-xl">
+        <img src={arcadeGame} />
+        <h3>Tic Tac Milo</h3>
+      </div>
+    </section>
+
+    <footer className="text-center text-slate-800">
+      <h6> © COPYRIGHT TINITO CODE STUDIOS 2024</h6>
+    </footer>
+    </body>
   )
 }
 

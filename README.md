@@ -1,8 +1,1 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Get ready to step back in time with Milo's Mini Arcade! Imagine all your favorite old-school games with a twist—Milo, the cutest and furriest game character ever! From dodging giant bones in "Milo Run" to dodging vacuum cleaners in "Pac Milo," this is one retro gaming experience you won't want to miss. It's the ultimate throwback for gamers who love a good challenge and can't resist a wagging tail!
